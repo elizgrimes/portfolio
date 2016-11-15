@@ -3,34 +3,44 @@
   <head>
     <meta charset="utf-8">
     <title>Projects</title>
-    <link rel="stylesheet" type="text/css" href="styles/first-stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="styles/normalize.css">
+    <link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <script src="https://use.fontawesome.com/793567147e.js"></script>
   </head>
   <body>
-    <header>
-      <nav>
-        <h1><a href="index.html"><img src="images/Portfolio.JPG" alt="Portfolio">My Portfolio</a></h1>
-        <a href="index.html">Home</a>
-        <a href="#">Projects</a>
-        <a href="about.html">About</a>
-      </nav>
+    <header class="dark">
+      <a class="title" href="index.html"><h1>My Portfolio</h1></a>
+      <h2>Elizabeth Grimes</h2>
     </header>
-    <article id="projects">
-      <h2>Projects</h2>
-      <div class="projects">
-        <h3>Veggies are Awesome!</h3>
-        <a href="../week1/semantic_tags/index.html" target="_blank"><img src="images/Veggie.jpeg" alt="Veggies are Awesome"/></a>
-      </div>
-      <div class="projects">
-        <h3>Project 2</h3>
-        <a href="www.project2.html" target = "_blank"><img src="images/Project-2.jpeg" alt="Project 2"/></a>
-      </div>
-      <div class="projects">
-        <h3>Project 3</h3>
-        <a href="www.project3.html" target = "_blank"><img src="images/Project-3.jpeg" alt="Project 3"/></a>
-      </div>    
-    </article>
-    <footer> 
-      Copyright Elizabeth, 2016
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="projects.html">Projects</a>
+      <a href="about.html">About</a>
+    </nav>
+    <main>
+      <article id="projects">
+        <h2>Projects</h2>
+        <div class="projects">
+          <h3>Veggies are Awesome!</h3>
+          <a href="../week1/semantic_tags/index.html" target="_blank"><img src="images/Veggie.jpeg" alt="Veggies are Awesome"/></a>
+        </div>
+        <div class="projects">
+          <h3>Project 2</h3>
+          <a href="www.project2.html" target = "_blank"><img src="images/Project-2.jpeg" alt="Project 2"/></a>
+        </div>
+        <div class="projects">
+          <h3>Project 3</h3>
+          <a href="www.project3.html" target = "_blank"><img src="images/Project-3.jpeg" alt="Project 3"/></a>
+        </div>    
+      </article>
+    </main>  
+    <footer class="dark clearfix">
+      <p>Copyright Elizabeth, 2016</p>
+      <aside class="social-media">
+        <a href="#" ><i class="fa fa-2x fa-facebook-square"></i></a>
+        <a href="#" ><i class="fa fa-2x fa-linkedin-square"></i></a>
+      </aside>
     </footer>
   </body>
 </html>
