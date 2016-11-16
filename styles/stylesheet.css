@@ -64,7 +64,7 @@ aside{
 main aside {
   margin: .5rem;
   transition: all 1.5s ease-out 0s;
-  animation: 2s ease .5s infinite pulse; 
+  animation: 2s ease .5s infinite rotater; 
 }
 
 main aside:hover {
@@ -89,7 +89,7 @@ main aside:hover {
   background: green;
 }
 
-@keyframes pulse {
+@keyframes rotater {
   50% { transform: rotate(360deg); }
 }
 
