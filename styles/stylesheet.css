@@ -48,6 +48,49 @@ nav a:hover {
 
 main {
   padding: .5rem;
+  
+}
+
+article {
+  float: left;
+  width: 60%;
+}
+
+aside{
+  float: right;
+  width: 30%;
+}
+
+main aside {
+  margin: .5rem;
+  transition: all 1.5s ease-out 0s;
+  animation: 2s ease .5s infinite pulse; 
+}
+
+main aside:hover {
+  background-color: red;
+}
+#circles li {
+  background: rgb(255, 255, 0);
+  border-radius: 30%;
+  list-style: none;
+  margin: .2rem;
+
+  float: left;
+
+  text-align: center;
+  line-height: 7vmax;
+        
+  height: 7vmax;
+  width: 7vmax;
+}
+
+#circles :nth-child(2n) {
+  background: green;
+}
+
+@keyframes pulse {
+  50% { transform: rotate(360deg); }
 }
 
 footer {
